@@ -87,7 +87,7 @@ class StudioAgency extends Component{
                 {/* End About Area */}
 
                 {/* Start Service Area  */}
-                <div className="service-area ptb--80  bg_image bg_image--3"  style={{ paddingBottom: "0px !important"}}>
+                <div className="service-area bg_image bg_image--3"  style={{ padding: "0px !important"}}>
                     <div className="container">
                         <ServiceTwo />
                     </div>
