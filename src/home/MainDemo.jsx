@@ -19,13 +19,14 @@ class MainDemo extends Component{
         const PostList = BlogContent.slice(0 , 3);
         return(
             <Fragment> 
-                <Helmet pageTitle="Main Demo" />
+                <Helmet pageTitle="Algorium" />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
-
+                
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
-                    <SliderOne />
+                    {/* LOOKHERE slider*/}
+                    <SliderOne/>
                 </div>
                 {/* End Slider Area   */}
                 
@@ -35,7 +36,7 @@ class MainDemo extends Component{
                 </div>
                 {/* End About Area */}
 
-                <div className="service-area ptb--80  bg_image bg_image--3">
+                <div className="service-area ptb--80  bg_image bg_image--3" style={{ paddingBottom: "0px !important"}}>
                    <div className="container">
                         <ServiceTwo />
                    </div>
@@ -80,7 +81,7 @@ class MainDemo extends Component{
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

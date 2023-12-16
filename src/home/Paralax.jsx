@@ -105,7 +105,7 @@ class Paralax extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--2 text-center mb--30 mb_sm--0">
                                         <h2>Our Service</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ class Paralax extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--2 text-center mb--30 mb_sm--0">
                                         <h2>Our Works</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ class Paralax extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--2 text-center mb--30 mb_sm--0">
                                         <h2>Latest News</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>

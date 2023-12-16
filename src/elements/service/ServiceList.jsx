@@ -1,10 +1,11 @@
 import React ,{ Component }from "react";
 import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { AiIcon } from "./icons/AiIcon";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
+        icon: <AiIcon />,
+        title: 'AI Digital Art & Graphic Design',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {

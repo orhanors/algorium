@@ -57,7 +57,7 @@ class DigitalAgency extends Component{
     render(){
         const PostList = BlogContent.slice(0 , 3);
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Welcome to Algorium.uk, where innovation meets reliability. As a dynamic startup based in the heart of the UK, we are passionate about crafting digital experiences that seamlessly blend creativity and functionality.';
         return(
             <Fragment> 
                 
@@ -100,7 +100,7 @@ class DigitalAgency extends Component{
                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
                                     <h2 className="title">Our Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                            </div>
                        </div>
@@ -117,7 +117,7 @@ class DigitalAgency extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--15">
                                         <h2 className="title">Our Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@ class DigitalAgency extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +220,7 @@ class DigitalAgency extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
                                     <h2 className="title">Our Clients</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>

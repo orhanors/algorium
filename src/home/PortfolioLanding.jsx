@@ -92,7 +92,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>

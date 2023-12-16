@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AboutTwo extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Welcome to Algorium.uk, where innovation meets reliability. As a dynamic startup based in the heart of the UK, we are passionate about crafting digital experiences that seamlessly blend creativity and functionality.';
         return(
             <React.Fragment>
                 <div className="about-wrapper">

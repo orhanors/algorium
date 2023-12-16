@@ -78,14 +78,14 @@ const singleDemo = [
     {
         url: 'main-demo',
         imageUrl: 'demo-home.png',
-        title: 'Main Demo',
+        title: 'Algorium',
         description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
         label: ''
     },
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
-        title: 'Main Demo — Dark Version',
+        title: 'Algorium — Dark Version',
         description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
         label: 'New'
     },
@@ -242,7 +242,7 @@ const agencyDemo = [
     {
         url: 'main-demo',
         imageUrl: 'demo-home.png',
-        title: 'Main Demo',
+        title: 'Algorium',
         description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
         label: ''
     },
@@ -291,7 +291,7 @@ const agencyDemo = [
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
-        title: 'Main Demo — Dark Version',
+        title: 'Algorium — Dark Version',
         description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
         label: 'New'
     },
@@ -588,7 +588,7 @@ class Demo extends Component {
                 {/* Start Preview Main Wrapper */}
                 <div className="main-wrapper" id="demo">
 
-                    {/* Start Main Demo Area  */}
+                    {/* Start Algorium Area  */}
                     <div className="home-demo-area bg_color--1 ptb--120">
                         <div className="wrapper plr--120">
                             <div className="row">
@@ -722,9 +722,9 @@ class Demo extends Component {
 
                         </div>
                     </div>
-                    {/* End Main Demo Area  */}
+                    {/* End Algorium Area  */}
 
-                    {/* Start Main Demo  */}
+                    {/* Start Algorium  */}
                     <div className="home-demo-area bg_color--3 pt--120 pb--130 pt_md--80 pb_md--90 pt_sm--80 pb_sm--90">
                         <div className="wrapper plr--120">
                             <div className="row">
@@ -756,7 +756,7 @@ class Demo extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* End Main Demo  */}
+                    {/* End Algorium  */}
 
                     {/* Start Feature Area  */}
                     <div className="prv-feature service-area bg_color--7 ptb--120">

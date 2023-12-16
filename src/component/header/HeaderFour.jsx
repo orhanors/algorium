@@ -61,8 +61,8 @@ class HeaderFour extends Component{
                             <ul className="mainmenu">
                                 <li className="has-droupdown"><Link to="#">Home</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/main-demo">Main Demo</Link></li>
-                                        <li><Link to="/dark-main-demo">Main Demo Dark</Link></li>
+                                        <li><Link to="/main-demo">Algorium</Link></li>
+                                        <li><Link to="/dark-main-demo">Algorium Dark</Link></li>
                                         <li><Link to="/creative-agency">Creative Agency</Link></li>
                                         <li><Link to="/creative-landing">Creative One Page</Link></li>
                                         <li><Link to="/creative-portfolio">Creative Portfolio</Link></li>

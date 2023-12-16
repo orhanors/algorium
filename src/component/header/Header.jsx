@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi";
-
+import "./header.css"
 
 class Header extends Component{
     constructor(props) {
@@ -37,15 +37,15 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img className="logo-img" src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+            logoUrl = <img className="logo-img" src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img className="logo-img" src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img className="logo-img" src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/algorium/logo.png" alt="Algorium" />;
+            logoUrl = <img className="logo-img" src="/assets/images/logo/algorium/logo.png" alt="Algorium" />;
         }
 
         
@@ -63,8 +63,6 @@ class Header extends Component{
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="/service" >Service</Link></li>
-                                <li><Link to="/about" >About</Link></li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>

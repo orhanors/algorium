@@ -58,17 +58,17 @@ const PortfolioList2 = [
 
 const ServiceListOne = [
     {
-        icon: "icon-01.png",
+        icon: "icon-01.svg",
         title: 'Interior Design',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: "icon-02.png",
+        icon: "icon-02.svg",
         title: 'Landcape Design',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: "icon-03.png",
+        icon: "icon-03.svg",
         title: 'Home Interior',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
@@ -296,7 +296,7 @@ class InteriorLanding extends Component{
                             <div className="col-lg-6">
                                 <div className="section-title text-left service-style--3 mb--30">
                                     <h2 className="title">All Works</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>

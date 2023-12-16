@@ -119,7 +119,7 @@ class Business extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
                                     <h2 className="title">Our Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,7 @@ class Business extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">Our Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@ class Business extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                     <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +253,7 @@ class Business extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center">
                                     <h2 className="title">Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>

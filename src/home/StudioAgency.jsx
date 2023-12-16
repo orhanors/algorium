@@ -87,7 +87,7 @@ class StudioAgency extends Component{
                 {/* End About Area */}
 
                 {/* Start Service Area  */}
-                <div className="service-area ptb--80  bg_image bg_image--3">
+                <div className="service-area ptb--80  bg_image bg_image--3"  style={{ paddingBottom: "0px !important"}}>
                     <div className="container">
                         <ServiceTwo />
                     </div>
@@ -132,7 +132,7 @@ class StudioAgency extends Component{
                             <div className="col-lg-6">
                                 <div className="section-title text-left">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

@@ -131,7 +131,7 @@ class Startup extends Component{
                             <div className="col-lg-6 col-12">
                                 <div className="section-title text-left">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-12">

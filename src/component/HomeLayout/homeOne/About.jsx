@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Welcome to Algorium.uk, where innovation meets reliability. As a dynamic startup based in the heart of the UK, we are passionate about crafting digital experiences that seamlessly blend creativity and functionality.';
         return(
             <React.Fragment>
                 <div className="about-wrapper">
@@ -26,13 +26,13 @@ class About extends Component{
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 <h3 className="title">Who we are</h3>
-                                                <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <p>We are a passionate group, comprised of individuals deeply immersed in the digital realm and visual arts, directing our focus towards the future. For the past 5 years, our team has been fueled by genuine enthusiasm, approaching our work with unwavering passion.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
-                                                <h3 className="title">Who we are</h3>
-                                                <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <h3 className="title">Our Mission</h3>
+                                                <p>We are on a mission to make technology seamless and impactful. Redefining industry norms, we're dedicated to accessible, forward-thinking solutions. Join us as we navigate the digital future, crafting experiences that effortlessly blend innovation and simplicity.</p>
                                             </div>
                                         </div>
                                     </div>

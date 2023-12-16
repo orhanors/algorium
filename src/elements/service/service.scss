@@ -1,0 +1,10 @@
+.service-one-wrapper {
+    .service.service__style--2{
+        &:hover {
+            .icon svg path {
+             fill: white;
+            }
+         }
+    }
+
+}

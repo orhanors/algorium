@@ -1,33 +1,37 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { AiIcon } from "./icons/AiIcon";
+import { ThreeDIcon } from "./icons/ThreeDIcon";
+import { UxIcon } from "./icons/UxIcon";
+import { BrandIcon } from "./icons/BrandIcon";
+import "./service.scss"
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <AiIcon />,
+        title: 'AI Digital Art & Graphic Design',
+        description: 'Unleash the power of AI in our digital art and graphic design services. Elevate your brand with cutting-edge visuals that seamlessly blend technology and creativity.'
     },
     {
-        icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <ThreeDIcon />,
+        title: 'Immersive 3D Solutions',
+        description: 'Explore limitless possibilities with our 3D Visualization & Rendering. From animated concepts to industrial-scale product design, we bring ideas to life with stunning visuals and precision.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <UxIcon />,
+        title: 'Web Design & Mobile App',
+        description: 'Discover enhanced journeys with our Web Design & Mobile App UI/UX services. We specialize in visually engaging websites and user-friendly mobile apps, ensuring seamless and enjoyable interactions.'
     },
     {
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <BrandIcon />,
+        title: 'Brand Identity',
+        description: 'Elevate your brand presence with our expertise in crafting and consulting on brand identity. Let us shape a distinctive identity that sets your brand apart.'
     }
 ]
 
 class ServiceTwo extends Component{
     render(){
         let title = 'Services',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.';
+        description = 'Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass';
         return(
             <React.Fragment>
                 <div className="row">
@@ -35,27 +39,23 @@ class ServiceTwo extends Component{
                         <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
                             <h2 className="title">{title}</h2>
                             <p>{description}</p>
-                            <div className="service-btn">
-                                <a className="btn-transparent rn-btn-dark" href="/service"><span className="text">Request Custom Service</span></a>
-                            </div>
+                            <img alt="robot" src="/assets/images/robot.png" style={{marginTop: "50px"}}/>
                         </div>
                     </div>
                     <div className="col-lg-8 col-12 mt_md--50">
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
-                                        <div className="service service__style--2">
-                                            <div className="icon">
-                                                {val.icon}
-                                            </div>
-                                            <div className="content">
-                                                <h3 className="title">{val.title}</h3>
-                                                <p>{val.description}</p>
-                                            </div>
+                                    <div className="service service__style--2">
+                                        <div className="icon">
+                                            {val.icon}
                                         </div>
-                                    </a>
-                                </div>
+                                        <div className="content">
+                                            <h3 className="title">{val.title}</h3>
+                                            <p>{val.description}</p>
+                                        </div>
+                                    </div>
+                            </div>
                             ))}
                         </div>
                     </div>

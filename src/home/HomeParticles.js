@@ -261,7 +261,7 @@ class HomeParticles extends Component{
                             <div className="col-lg-6 col-12">
                                 <div className="section-title text-left mb--30">
                                     <h2>Our Services</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@ class HomeParticles extends Component{
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                                         <h2 className="title">Our Portfolio</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                     </div>
                                 </div>
                             </div>
@@ -378,7 +378,7 @@ class HomeParticles extends Component{
                             <div className="col-lg-6">
                                 <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
                                     <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -405,7 +405,7 @@ class HomeParticles extends Component{
                             <div className="col-lg-6">
                                 <div className="section-title text-left">
                                     <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>

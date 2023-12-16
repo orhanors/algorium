@@ -40,7 +40,7 @@ const SlideList = [
 const ServiceListOne = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
+        title: 'AI Digital Art & Graphic Design',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
@@ -169,9 +169,6 @@ class CorporateBusiness extends Component{
                                 <div className="section-title">
                                     <h2 className="title">Services</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but.</p>
-                                    <div className="service-btn">
-                                        <a className="btn-transparent rn-btn-dark" href="/service"><span className="text">Request Custom Service</span></a>
-                                    </div>
                                 </div>
                             </div>
                             {/* End Single Service  */}
@@ -246,7 +243,7 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                     <h2 className="title">Managing Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +313,7 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                     <h2 className="title">Pricing Plan</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
@@ -416,7 +413,7 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center">
                                     <h2 className="title">Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Explore a spectrum of expertise tailored to meet your needs. Our professional services encompass</p>
                                 </div>
                             </div>
                         </div>
